@@ -1,6 +1,6 @@
 import numpy as np
 
-# Conjugate transpose function
+# Conjugate transpose function 
 def getH(A):
     if np.any(np.iscomplex(A)):
         return(np.conjugate(A).T)
